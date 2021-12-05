@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>VMG Çevirici</title>
+</head>
+<body>
+    
+    <header class="top">
+        <h1 class="top__h1">VMG Çevirici</h1>
+        <h2 class="top__h2">Eski Telefon Mesajlarını Düzelt</h2>
+        <p>HEX biçiminde Türkçe karakterlere sahip <b>".vmg"</b> mesaj içeriğini kutucuğa yapıştırın ve çevirin.</p>
+    </header>
+
+    <main class="middle">
+        <form action="#" class="vmg-form" autocomplete="off">
+            <textarea name="" id="" class="vmg-form__area" cols="60" rows="8" placeholder="Pijamal=C4=B1 hasta ya=C4=9F=C4=B1z =C5=9Fof=C3=B6re =C3=A7abucak g=C3=BCvendi."></textarea>
+
+            <div class="vmg-controls">
+                <button type="submit"  class="vmg-controls__submit">Çevir</button>
+                <button type="reset"  class="vmg-controls__reset">Temizle</button>
+
+                <div class="tooltip">
+                    <button type="button"  class="vmg-controls__copy">
+                        <span class="tooltip-text tooltip-text__copy">Panoya Kopyala</span>
+                        Kopyala
+                    </button>
+                </div>
+            </div>
+            
+            <textarea name="" id="" class="vmg-form__result" cols="60" rows="8" placeholder="Pijamalı hasta yağız şoföre çabucak güvendi." readonly></textarea>
+        </form>
+    </main>
+
+    <footer class="bottom">
+        <hr class="visual-seperator">
+        <p class="author">
+            2021 - <a class="author__link" href="https://github.com/obdegirmenci" target="_blank">obdegirmenci</a><br>
+            <span class="credits">Yardımları için <a class="author__link" href="https://github.com/onrdrsy" target="_blank">onrdrsy</a>'a teşekkürler. Orijinal <a class="author__link" href="https://www.online-python.com/CTtxVkUrhy" target="_blank">Python örneği.</a></span>
+        </p>
+    </footer>
+</body>
+<script src="js/func.js"></script>
+</html>
