@@ -15,10 +15,10 @@ const charList =
     "=C5=9F": "ş",
     // The others are just relative to needs
     "=20": " ",     // I saw this only once. The other space chars that in message files were fine.
-    "C3B9": "ù",    // Someones sent this wrongly instead of " ü ".
-    "CE9B": "Λ",    // Someones sent this wrongly instead of " ' ".
-    "0D0A": "",     // I don't know what is it.
-    "C3A2": "â"     // Sometimes it is necessary.
+    "=C3=B9": "ù",  // Someones sent this wrongly instead of " ü ".
+    "=CE=9B": "Λ",  // Someones sent this wrongly instead of " ' ".
+    "=0D=0A": "",   // I don't know what is it.
+    "=C3=A2": "â"   // Sometimes it is necessary.
 };
 
 document.addEventListener('DOMContentLoaded', pageReady(), false);
